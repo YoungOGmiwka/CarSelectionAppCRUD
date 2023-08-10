@@ -2,7 +2,7 @@
 //  Persistence.swift
 //  CarSelectionAppCRUD
 //
-//  Created by Михаил on 09.08.2023.
+//  Created by Михаил
 //
 
 import CoreData

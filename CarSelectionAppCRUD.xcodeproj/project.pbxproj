@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706B689D2A85062600A5A053 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 706B689C2A85062600A5A053 /* GoogleService-Info.plist */; };
+		706B68A02A852FBF00A5A053 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 706B689F2A852FBF00A5A053 /* URLImage */; };
+		706B68A22A85313500A5A053 /* CarRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B68A12A85313500A5A053 /* CarRowView.swift */; };
+		706B68A62A854C9E00A5A053 /* DetailCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B68A52A854C9E00A5A053 /* DetailCarView.swift */; };
+		706B68AC2A8579F700A5A053 /* UpdateInfoCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B68AB2A8579F700A5A053 /* UpdateInfoCar.swift */; };
+		706B68AE2A857A9700A5A053 /* UpdateInfoCarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B68AD2A857A9700A5A053 /* UpdateInfoCarViewModel.swift */; };
+		70957D1C2A84FFB80061DB52 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70957D1B2A84FFB80061DB52 /* CarModel.swift */; };
+		70957D1E2A8500EA0061DB52 /* CarsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70957D1D2A8500EA0061DB52 /* CarsViewModel.swift */; };
 		70E8F3332A838A750043E585 /* CarSelectionAppCRUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8F3322A838A750043E585 /* CarSelectionAppCRUDApp.swift */; };
 		70E8F3352A838A750043E585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8F3342A838A750043E585 /* ContentView.swift */; };
 		70E8F3372A838A750043E585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E8F3362A838A750043E585 /* Assets.xcassets */; };
 		70E8F33A2A838A750043E585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E8F3392A838A750043E585 /* Preview Assets.xcassets */; };
 		70E8F33C2A838A750043E585 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8F33B2A838A750043E585 /* Persistence.swift */; };
 		70E8F33F2A838A750043E585 /* CarSelectionAppCRUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70E8F33D2A838A750043E585 /* CarSelectionAppCRUD.xcdatamodeld */; };
+		70E8F3492A84DF890043E585 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 70E8F3482A84DF890043E585 /* FirebaseDatabase */; };
+		70E8F34B2A84DF890043E585 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 70E8F34A2A84DF890043E585 /* FirebaseFirestore */; };
+		70E8F34D2A84DF890043E585 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 70E8F34C2A84DF890043E585 /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		706B689C2A85062600A5A053 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		706B68A12A85313500A5A053 /* CarRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRowView.swift; sourceTree = "<group>"; };
+		706B68A52A854C9E00A5A053 /* DetailCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarView.swift; sourceTree = "<group>"; };
+		706B68AB2A8579F700A5A053 /* UpdateInfoCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateInfoCar.swift; sourceTree = "<group>"; };
+		706B68AD2A857A9700A5A053 /* UpdateInfoCarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateInfoCarViewModel.swift; sourceTree = "<group>"; };
+		70957D1B2A84FFB80061DB52 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		70957D1D2A8500EA0061DB52 /* CarsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewModel.swift; sourceTree = "<group>"; };
 		70E8F32F2A838A750043E585 /* CarSelectionAppCRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSelectionAppCRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E8F3322A838A750043E585 /* CarSelectionAppCRUDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelectionAppCRUDApp.swift; sourceTree = "<group>"; };
 		70E8F3342A838A750043E585 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,12 +48,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E8F3492A84DF890043E585 /* FirebaseDatabase in Frameworks */,
+				70E8F34B2A84DF890043E585 /* FirebaseFirestore in Frameworks */,
+				706B68A02A852FBF00A5A053 /* URLImage in Frameworks */,
+				70E8F34D2A84DF890043E585 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70957D172A84FF2D0061DB52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70957D1B2A84FFB80061DB52 /* CarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70957D182A84FF3B0061DB52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70E8F3342A838A750043E585 /* ContentView.swift */,
+				706B68A12A85313500A5A053 /* CarRowView.swift */,
+				706B68A52A854C9E00A5A053 /* DetailCarView.swift */,
+				706B68AB2A8579F700A5A053 /* UpdateInfoCar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70957D192A84FF420061DB52 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				70957D1D2A8500EA0061DB52 /* CarsViewModel.swift */,
+				706B68AD2A857A9700A5A053 /* UpdateInfoCarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		70E8F3262A838A750043E585 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +105,11 @@
 		70E8F3312A838A750043E585 /* CarSelectionAppCRUD */ = {
 			isa = PBXGroup;
 			children = (
+				706B689C2A85062600A5A053 /* GoogleService-Info.plist */,
+				70957D192A84FF420061DB52 /* ViewModel */,
+				70957D182A84FF3B0061DB52 /* View */,
+				70957D172A84FF2D0061DB52 /* Model */,
 				70E8F3322A838A750043E585 /* CarSelectionAppCRUDApp.swift */,
-				70E8F3342A838A750043E585 /* ContentView.swift */,
 				70E8F3362A838A750043E585 /* Assets.xcassets */,
 				70E8F33B2A838A750043E585 /* Persistence.swift */,
 				70E8F33D2A838A750043E585 /* CarSelectionAppCRUD.xcdatamodeld */,
@@ -89,6 +142,12 @@
 			dependencies = (
 			);
 			name = CarSelectionAppCRUD;
+			packageProductDependencies = (
+				70E8F3482A84DF890043E585 /* FirebaseDatabase */,
+				70E8F34A2A84DF890043E585 /* FirebaseFirestore */,
+				70E8F34C2A84DF890043E585 /* FirebaseFirestoreSwift */,
+				706B689F2A852FBF00A5A053 /* URLImage */,
+			);
 			productName = CarSelectionAppCRUD;
 			productReference = 70E8F32F2A838A750043E585 /* CarSelectionAppCRUD.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +176,10 @@
 				Base,
 			);
 			mainGroup = 70E8F3262A838A750043E585;
+			packageReferences = (
+				70E8F3472A84DF890043E585 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				706B689E2A852FBF00A5A053 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 70E8F3302A838A750043E585 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,6 +196,7 @@
 			files = (
 				70E8F33A2A838A750043E585 /* Preview Assets.xcassets in Resources */,
 				70E8F3372A838A750043E585 /* Assets.xcassets in Resources */,
+				706B689D2A85062600A5A053 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +208,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				70E8F33C2A838A750043E585 /* Persistence.swift in Sources */,
+				70957D1E2A8500EA0061DB52 /* CarsViewModel.swift in Sources */,
+				70957D1C2A84FFB80061DB52 /* CarModel.swift in Sources */,
+				706B68AC2A8579F700A5A053 /* UpdateInfoCar.swift in Sources */,
 				70E8F3352A838A750043E585 /* ContentView.swift in Sources */,
+				706B68A62A854C9E00A5A053 /* DetailCarView.swift in Sources */,
+				706B68A22A85313500A5A053 /* CarRowView.swift in Sources */,
+				706B68AE2A857A9700A5A053 /* UpdateInfoCarViewModel.swift in Sources */,
 				70E8F33F2A838A750043E585 /* CarSelectionAppCRUD.xcdatamodeld in Sources */,
 				70E8F3332A838A750043E585 /* CarSelectionAppCRUDApp.swift in Sources */,
 			);
@@ -275,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarSelectionAppCRUD/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -303,6 +374,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarSelectionAppCRUD/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -345,6 +417,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		706B689E2A852FBF00A5A053 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		70E8F3472A84DF890043E585 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		706B689F2A852FBF00A5A053 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 706B689E2A852FBF00A5A053 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		70E8F3482A84DF890043E585 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70E8F3472A84DF890043E585 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		70E8F34A2A84DF890043E585 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70E8F3472A84DF890043E585 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		70E8F34C2A84DF890043E585 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70E8F3472A84DF890043E585 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		70E8F33D2A838A750043E585 /* CarSelectionAppCRUD.xcdatamodeld */ = {
