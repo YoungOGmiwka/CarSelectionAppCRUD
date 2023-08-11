@@ -10,6 +10,7 @@ import Combine
 import FirebaseFirestore
 
 class CarsViewModel: ObservableObject {
+    
     @Published var cars = [Car]()
     
     private var db = Firestore.firestore()
@@ -18,7 +19,7 @@ class CarsViewModel: ObservableObject {
     deinit {
         unsubscribe()
     }
-    
+
     func unsubscribe() {
         if listenerRegistration != nil {
             listenerRegistration?.remove()
@@ -52,5 +53,17 @@ class CarsViewModel: ObservableObject {
                 }
             }
         }
+    }
+    
+    func sortedCarPrice(on option: SortOption) -> [Car] {
+        switch option {
+        case .defaultSort: break
+        case .lowestPrice:
+            return cars.sorted(by: { $0.price > $1.price })
+        case .highestPrice:
+            return cars.sorted(by: { $0.price < $1.price })
+        }
+        
+        return cars
     }
 }

@@ -8,7 +8,7 @@
 import Foundation
 import FirebaseFirestoreSwift
 
-struct Car: Identifiable, Codable {
+struct Car: Identifiable, Codable, Equatable {
     @DocumentID var id: String?
     var brandName: String
     var modelName: String
